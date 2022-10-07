@@ -1,0 +1,16 @@
+{
+    "POST request using Axios" : {
+        "prefix": "POSTaxios",
+        "body": [
+            "await axios.post(URL, HEADERS, DATA_OBJECT)",
+            "   .then(response => {",
+            "       // Code",
+            "       ${1}",
+            "   })",
+            "   .catch(err => {",
+            "       // Code",
+            "   })"
+        ],
+        "description": "POST request using Axios"
+    }
+}

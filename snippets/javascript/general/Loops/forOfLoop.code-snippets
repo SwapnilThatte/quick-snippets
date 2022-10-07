@@ -1,0 +1,11 @@
+{
+    "For of Loop" : {
+        "prefix": "forof",
+        "body": [
+            "for (let key of ${1}) {",
+            "",
+            "}"
+        ],
+        "description": "To Loop over iterable data structures such as Arrays, Strings, Maps"
+    }
+}

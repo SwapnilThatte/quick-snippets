@@ -1,0 +1,9 @@
+{
+    "JS console.table statement": {
+        "prefix": "table",
+        "body": [
+            "console.table(${1})",
+        ],
+        "description": "Displays JS Objects in more readable format"
+    }
+}

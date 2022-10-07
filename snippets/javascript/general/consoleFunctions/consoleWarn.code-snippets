@@ -1,0 +1,9 @@
+{
+    "JS console.warn statement": {
+        "prefix": "warn",
+        "body": [
+            "console.warn(${1})",
+        ],
+        "description": "To log warning message to the console"
+    }
+}

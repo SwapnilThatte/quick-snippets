@@ -1,0 +1,11 @@
+{
+    "Simple JS arrow function": {
+        "prefix": "asyncarrowfun",
+        "body": [
+            "const ${1} = async () => { ",
+            "",
+            "}"
+        ],
+        "description": "Simple JS function"
+    }
+}

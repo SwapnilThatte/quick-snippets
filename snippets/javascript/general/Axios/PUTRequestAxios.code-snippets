@@ -1,0 +1,16 @@
+{
+    "PUT request using Axios" : {
+        "prefix": "PUTaxios",
+        "body": [
+            "await axios.put(URL, HEADERS, DATA_OBJECT)",
+            "   .then(response => {",
+            "       // Code",
+            "       ${1}",
+            "   })",
+            "   .catch(err => {",
+            "       // Code",
+            "   })"
+        ],
+        "description": "PUT request using Axios"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "JS For Loop" : {
+        "prefix": "for",
+        "body": [
+            "for () {",
+            "",
+            "}"
+        ],
+        "description": "Simple JS for loop"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "JS set timeout": {
+        "prefix": "settimeout",
+        "body": [
+           "setTimeout(() => {",
+           "    ${1}// Write Your code here",
+           "}, timeout)",
+        ]
+    }
+}

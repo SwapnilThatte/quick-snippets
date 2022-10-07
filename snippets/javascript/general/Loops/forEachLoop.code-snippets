@@ -1,0 +1,11 @@
+{
+    "For Each Loop" : {
+        "prefix": ".foreach",
+        "body": [
+            ".forEach((element, index) => {",
+            "   ${1}",
+            "})"
+        ],
+        "description": "To Loop through the array"
+    }
+}

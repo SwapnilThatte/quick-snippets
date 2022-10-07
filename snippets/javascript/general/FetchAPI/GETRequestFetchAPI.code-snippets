@@ -1,0 +1,14 @@
+{
+    "GET request using Fetch API" : {
+        "prefix": "fetchGET", 
+        "body": [
+          "await fetch(\"URL\")",
+          "       .then(response => {",
+          "",
+          "       })",
+          "       .catch(err => {",
+          "",
+          "       })"
+        ],
+    }
+}

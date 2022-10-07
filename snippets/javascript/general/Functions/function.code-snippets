@@ -1,0 +1,11 @@
+{
+    "Simple JS function": {
+        "prefix": "function",
+        "body": [
+            "function ${1}() {",
+            "",
+            "}"
+        ],
+        "description": "Simple JS function"
+    }
+}

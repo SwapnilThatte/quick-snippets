@@ -1,0 +1,16 @@
+{
+    "DELETE request using Axios" : {
+        "prefix": "DELETEaxios",
+        "body": [
+            "await axios.delete(URL, HEADERS, DATA_OBJECT)",
+            "   .then(response => {",
+            "       // Code",
+            "       ${1}",
+            "   })",
+            "   .catch(err => {",
+            "       // Code",
+            "   })"
+        ],
+        "description": "DELETE request using Axios"
+    }
+}

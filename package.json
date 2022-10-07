@@ -1,0 +1,215 @@
+{
+  "name": "quick_snippets",
+  "displayName": "Quick Snippets",
+  "description": "",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwapnilThatte"
+  },
+  "publisher": "Swapnil Thatte",
+  "icon": "./logo.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/click.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/domContentLoaded.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/contextmenu.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/doubleclick.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/onMouseOver.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/onMouseOut.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/dragstart.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/dragend.code-snippets"
+      },
+     
+     
+     
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/consoleFunctions/consoleLog.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/consoleFunctions/consoleTable.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/consoleFunctions/consoleWarn.code-snippets"
+      },
+      
+
+
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Functions/timingFunctions/settimeout.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Functions/timingFunctions/settimeinterval.code-snippets"
+      },
+
+
+
+
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Functions/function.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Functions/arrowFunction.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Functions/asyncArrowFunction.code-snippets"
+      },
+
+
+
+
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Loops/forLoop.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Loops/forInLoop.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Loops/forOfLoop.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Loops/forEachLoop.code-snippets"
+      },
+
+
+
+
+
+      {
+        "language": "javascript",
+        "path" : "./snippets/javascript/general/XHR/GETRequestXHR.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path" : "./snippets/javascript/general/XHR/POSTRequestXHR.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/XHR/DELETERequestXHR.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/XHR/PUTRequestXHR.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/FetchAPI/GETRequestFetchAPI.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/FetchAPI/POSTRequestFetchAPI.code-snippets"
+      },
+
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Axios/GETRequestAxios.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Axios/POSTRequestAxios.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Axios/PUTRequestAxios.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/general/Axios/DELETERequestAxios.code-snippets"
+      },
+
+
+
+
+
+      {
+        "language": "javascript",
+        "path": "./snippets/express/expressServer.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/express/routerGET.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/express/routerPOST.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/express/routerDELETE.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/express/routerPUT.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/express/routerInit.code-snippets"
+      },
+      
+      
+      
+      
+      
+      {
+        "language": "javascript",
+        "path": "./snippets/mongoose/mongooseUserSchemaSnippet.code-snippets"
+      },
+
+
+
+      {
+        "language": "c++",
+        "path": "./snippets/cpp/cppStarter.code-snippets"
+      },
+
+
+
+      {
+        "language": "css",
+        "path": "./snippets/css/starterCSS.code-snippets"
+      }
+    ]
+  }
+}

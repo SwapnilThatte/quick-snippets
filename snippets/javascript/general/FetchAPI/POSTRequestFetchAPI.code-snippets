@@ -1,0 +1,23 @@
+{
+    "POST request using Fetch API" : {
+        "prefix": "fetchPOST", 
+        "body": [
+        "const options = {",
+        "   method : 'POST', ",
+        "   headers : { ",
+        "     'Content-Type': 'application/json',",
+        "   }",
+        "   body : ${1}",
+        "}",
+        "",
+        "await fetch(URL, options)",
+        "       .then(response => {",
+        "            ",
+        "       })",
+        "       .catch(err => {",
+        "            ",
+        "       })"
+        
+        ],
+    }
+}

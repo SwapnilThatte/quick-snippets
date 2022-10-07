@@ -1,0 +1,17 @@
+{
+    "PUT request using XHR" : {
+        "prefix": "xhrPUT", 
+        "body": [
+            "let xhr = new XMLHttpRequest()",
+            "const URL = /* URL */ ",
+            "xhr.setRequestHeader(\"Content-Type\", \"application/x-www-form-urlencoded\")",
+            "xhr.onreadystatechange = () => {",
+            "   if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {",
+            "       let response = xhr.responseText ",
+            "   }",
+            "}",
+            "xhr.open('PUT', URL, true)",
+            "xhr.send(null)"
+        ]
+    }
+}

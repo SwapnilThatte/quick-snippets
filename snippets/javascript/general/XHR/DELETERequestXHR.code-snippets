@@ -1,0 +1,16 @@
+{
+    "DELETE request using XHR" : {
+        "prefix": "xhrDELETE", 
+        "body": [
+            "let xhr = new XMLHttpRequest()",
+            "const URL = /* URL */ ",
+            "xhr.onreadystatechange = () => {",
+            "   if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {",
+            "       let response = xhr.responseText ",
+            "   }",
+            "}",
+            "xhr.open('DELETE', URL, true)",
+            "xhr.send(null)"
+        ]
+    }
+}

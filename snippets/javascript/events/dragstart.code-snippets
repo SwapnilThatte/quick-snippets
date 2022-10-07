@@ -1,0 +1,12 @@
+{
+    "JS Drag Start Event": {
+        "prefix": ".dragStart",
+        "body": [
+            ".addEventListener('dragstart', event => {",
+            "   console.log(\"Drag Strat Event\")",
+            "   ${1}",
+            "})",
+        ],
+        "description": "It is fired when an item is dragged"
+    }
+}

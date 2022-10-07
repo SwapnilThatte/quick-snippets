@@ -1,0 +1,12 @@
+{
+    "JS Context Menu Event": {
+        "prefix": ".contextmenue",
+        "body": [
+            ".addEventListener('contextmenu', event => {",
+            "   event.preventDefault()",
+            "   console.log(\"Context Menu Event\")",
+            "   ${1}",
+            "})",
+        ]
+    }
+}

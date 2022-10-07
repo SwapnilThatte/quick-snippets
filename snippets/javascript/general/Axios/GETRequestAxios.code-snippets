@@ -1,0 +1,16 @@
+{
+    "GET request using Axios" : {
+        "prefix": "GETaxios",
+        "body": [
+            "await axios.get(URL)",
+            "   .then(response => {",
+            "       // Code",
+            "       ${1}",
+            "   })",
+            "   .catch(err => {",
+            "       // Code",
+            "   })"
+        ],
+        "description": "GET request using Axios"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "JS Mouse Out Event": {
+        "prefix": ".mouseOut",
+        "body": [
+            ".addEventListener('onmouseout', event => {",
+            "",
+            "   console.log(\"Mouse Out Event\")",
+            "   ${1}",
+            "})",
+        ]
+    }
+}

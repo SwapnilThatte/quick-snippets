@@ -1,0 +1,15 @@
+{
+    "GET request using XHR" : {
+        "prefix": "xhrGET", 
+        "body": [
+            "let xhr = new XMLHttpRequest()",
+            "xhr.onreadystatechange = () => {",
+            "   if (xhr.readyState == XMLHttpRequest.DONE) {",
+            "       let response = xhr.responseText",
+            "   }",
+            "}",
+            "xhr.open('GET', ${1}/* URL */, true)",
+            "xhr.send(null)"
+        ],
+    }
+}

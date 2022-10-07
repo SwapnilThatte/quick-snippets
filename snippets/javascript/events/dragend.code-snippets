@@ -1,0 +1,12 @@
+{
+    "JS Drag End Event": {
+        "prefix": ".dragEnd",
+        "body": [
+            ".addEventListener('dragend', event => {",
+            "   console.log(\"Drag End Event\")",
+            "   ${1}",
+            "})",
+        ],
+        "description": "It is fired when a drag operation ends, such as releasing a mouse button or hitting the Esc key."
+    }
+}

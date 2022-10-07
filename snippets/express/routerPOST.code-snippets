@@ -1,0 +1,13 @@
+{
+    "Express router to handle POST request" : {
+        "prefix": "routerPOST",
+        "body": [
+            "",
+            "router.post('/', (req, res, next) => {",
+            "   ${1}res.status(200).send(\"<h1>router POST request</h1>\")",
+            "})",
+            "",
+        ],
+        "description": "Express router to handle POST request"
+    }
+}

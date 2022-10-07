@@ -1,0 +1,11 @@
+{
+    "JS set time interval": {
+        "prefix": "settimeInterval",
+        "body": [
+           "setInterval(() => {",
+           "    ${1}// Write Your code here",
+           "}, interval)",
+        ],
+        "description": "The setInterval() method repeats a given function at every given time-interval."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "JS click event" : {
+        "prefix": ".click",
+        "body": [
+            ".addEventListener('click', event => {",
+            "   event.preventDefault()",
+            "   console.log(\"Click Event\")",
+            "   ${1}",
+            "})",
+        ]
+    }
+}

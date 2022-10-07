@@ -1,0 +1,13 @@
+{
+    "Express router to handle GET request" : {
+        "prefix": "routerGET",
+        "body": [
+            "",
+            "router.get('/', (req, res, next) => {",
+            "   ${1}res.status(200).send(\"<h1>router GET request</h1>\")",
+            "})",
+            "",
+        ],
+        "description": "Express router to handle GET request"
+    }
+}

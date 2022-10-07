@@ -1,0 +1,11 @@
+{
+    "For In Loop" : {
+        "prefix": "forin",
+        "body": [
+            "for (let key in ${1}) {",
+            "",
+            "}"
+        ],
+        "description": "To Loop through the properties of object"
+    }
+}
