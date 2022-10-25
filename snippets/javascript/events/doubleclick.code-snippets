@@ -3,8 +3,6 @@
         "prefix": ".doubleclick",
         "body": [
             ".addEventListener('dbclick', event => {",
-            "   event.preventDefault()",
-            "   console.log(\"Double Click Event\")",
             "   ${1}",
             "})",
         ]

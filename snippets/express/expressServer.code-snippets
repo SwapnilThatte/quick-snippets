@@ -1,6 +1,6 @@
 {
     "express starter template" : {
-        "prefix": "expApp",
+        "prefix": "expapp",
         "body" : [
             "// To install dependencies use ' npm install express helmet dotenv mongoose ' ",
             "const express = require('express')",
@@ -17,7 +17,7 @@
             "   console.log(`Connected to MongoDB Database`)",
             "})",
             "",
-            "app.get('/', (req, res, next) => {",
+            "app.get('/', async (req, res, next) => {",
             "   ${1}res.status(200).send(\"<h1>Hello World</h1><br><h4>Express Server is running!</h4>\")",
             "})",
             "",

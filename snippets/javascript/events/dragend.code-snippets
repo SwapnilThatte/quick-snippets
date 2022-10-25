@@ -3,7 +3,6 @@
         "prefix": ".dragEnd",
         "body": [
             ".addEventListener('dragend', event => {",
-            "   console.log(\"Drag End Event\")",
             "   ${1}",
             "})",
         ],

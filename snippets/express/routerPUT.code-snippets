@@ -1,9 +1,9 @@
 {
     "Express router to handle PUT request" : {
-        "prefix": "routerPUT",
+        "prefix": "rtPUT",
         "body": [
             "",
-            "router.put('/', (req, res, next) => {",
+            "router.put('/', async (req, res, next) => {",
             "   ${1}res.status(200).send(\"<h1>router PUT request</h1>\")",
             "})",
             "",

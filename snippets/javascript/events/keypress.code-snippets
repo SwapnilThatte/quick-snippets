@@ -1,0 +1,11 @@
+{
+    "JS Key Press Event": {
+        "prefix": ".keypress",
+        "body": [
+            ".addEventListener('keypress', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": " The keypress event is not fired for all keys (e.g. ALT, CTRL, SHIFT, ESC) in all browsers. To detect only whether the user has pressed a key, use the onkeydown event instead, because it works for all keys"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "JS Drag Over Event": {
+        "prefix": ".dragOver",
+        "body": [
+            ".addEventListener('dragover', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The event occurs when the dragged element is over the drop target"
+    }
+}

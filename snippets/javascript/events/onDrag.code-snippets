@@ -1,0 +1,11 @@
+{
+    "JS On Drag Event": {
+        "prefix": ".ondrag",
+        "body": [
+            ".addEventListener('ondrag', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "It is fired when an item is being dragged"
+    }
+}

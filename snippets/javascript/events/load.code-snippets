@@ -1,0 +1,11 @@
+{
+    "JS Load Event": {
+        "prefix": ".load",
+        "body": [
+            ".addEventListener('load', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the browser finishes the loading of the page"
+    }
+}

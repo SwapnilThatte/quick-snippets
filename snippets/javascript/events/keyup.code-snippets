@@ -1,0 +1,11 @@
+{
+    "JS Key Up Event": {
+        "prefix": ".keyup",
+        "body": [
+            ".addEventListener('keyup', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The event occurs when the user releases a key"
+    }
+}

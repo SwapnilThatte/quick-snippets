@@ -1,0 +1,11 @@
+{
+    "JS Focus Event": {
+        "prefix": ".focus",
+        "body": [
+            ".addEventListener('focus', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the user focuses on an element"
+    }
+}

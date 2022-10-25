@@ -1,0 +1,11 @@
+{
+    "JS Drop Event": {
+        "prefix": ".drop",
+        "body": [
+            ".addEventListener('drop', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The drop event occurs when a draggable element or text selection is dropped on a valid drop target."
+    }
+}

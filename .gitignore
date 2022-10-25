@@ -1,2 +1,5 @@
 node_modules
 *.vsix
+notes.txt
+bugs.md
+dummyReadme.md

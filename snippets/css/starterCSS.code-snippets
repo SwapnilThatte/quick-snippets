@@ -12,6 +12,7 @@
             "}",
             "",
             "${1}"
-        ]
+        ],
+        "description": "Starter template for CSS"
     }
 }

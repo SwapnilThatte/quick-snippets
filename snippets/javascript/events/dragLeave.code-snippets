@@ -1,0 +1,11 @@
+{
+    "JS Drag Leave ": {
+        "prefix": ".dragLeave",
+        "body": [
+            ".addEventListener('dragleave', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The ondragleave event occurs when a draggable element or text selection leaves a valid drop target"
+    }
+}

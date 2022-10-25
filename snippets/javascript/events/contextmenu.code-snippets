@@ -3,10 +3,9 @@
         "prefix": ".contextmenue",
         "body": [
             ".addEventListener('contextmenu', event => {",
-            "   event.preventDefault()",
-            "   console.log(\"Context Menu Event\")",
             "   ${1}",
             "})",
-        ]
+        ],
+        "description": "Mouse contextmenue event"
     }
 }

@@ -1,9 +1,9 @@
 {
     "Express router to handle GET request" : {
-        "prefix": "routerGET",
+        "prefix": "rtGET",
         "body": [
             "",
-            "router.get('/', (req, res, next) => {",
+            "router.get('/', async (req, res, next) => {",
             "   ${1}res.status(200).send(\"<h1>router GET request</h1>\")",
             "})",
             "",

@@ -2,7 +2,7 @@
     "JS For Loop" : {
         "prefix": "for",
         "body": [
-            "for () {",
+            "for (let ${1}=0; ${1}<n; ${1}++) {",
             "",
             "}"
         ],

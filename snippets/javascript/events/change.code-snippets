@@ -1,0 +1,11 @@
+{
+    "JS Form Change Event": {
+        "prefix": ".change",
+        "body": [
+            ".addEventListener('change', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the user modifies or changes the value of a form element"
+    }
+}

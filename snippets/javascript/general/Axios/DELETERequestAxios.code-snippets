@@ -1,7 +1,11 @@
 {
     "DELETE request using Axios" : {
-        "prefix": "DELETEaxios",
+        "prefix": "axiosDELETE",
         "body": [
+            "// @param url        URL to send the request",
+            "// @param headers    request headers(if any)",
+            "// @param data       data to send (if any)",
+    
             "await axios.delete(URL, HEADERS, DATA_OBJECT)",
             "   .then(response => {",
             "       // Code",
