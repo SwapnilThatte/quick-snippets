@@ -1,0 +1,11 @@
+{
+    "JS Wheel Event": {
+        "prefix": ".wheel",
+        "body": [
+            ".addEventListener('wheel', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The wheel event fires when the user rotates a wheel button on a pointing device (typically a mouse)."
+    }
+}

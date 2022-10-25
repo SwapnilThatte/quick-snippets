@@ -1,0 +1,11 @@
+{
+    "JS Window Resize Event": {
+        "prefix": ".resize",
+        "body": [
+            ".addEventListener('resize', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the visitor resizes the window of the browser"
+    }
+}

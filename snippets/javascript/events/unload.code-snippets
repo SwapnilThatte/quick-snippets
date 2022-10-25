@@ -1,0 +1,11 @@
+{
+    "JS Unload Event": {
+        "prefix": ".unload",
+        "body": [
+            ".addEventListener('unload', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the visitor leaves the current webpage, the browser unloads it"
+    }
+}

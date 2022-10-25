@@ -3,15 +3,14 @@
         "prefix": "xhrPOST", 
         "body": [
             "let xhr = new XMLHttpRequest()",
-            "const URL = /* URL */ ",
-            "xhr.setRequestHeader(\"Content-Type\", \"application/x-www-form-urlencoded\")",
             "xhr.onreadystatechange = () => {",
             "   if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {",
-            "       let response = xhr.responseText ",
+            "   ",
             "   }",
             "}",
-            "xhr.open('POST', URL, true)",
+            "xhr.open('POST', ${1}, true)",
             "xhr.send(null)"
-        ]
+        ],
+        "description": "POST request using XHR object"
     }
 }

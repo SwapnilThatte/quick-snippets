@@ -1,7 +1,11 @@
 {
     "PUT request using Axios" : {
-        "prefix": "PUTaxios",
+        "prefix": "axiosPUT",
         "body": [
+            "// @param url        URL to send the request",
+            "// @param headers    request headers(if any)",
+            "// @param data       data to send (if any)",
+    
             "await axios.put(URL, HEADERS, DATA_OBJECT)",
             "   .then(response => {",
             "       // Code",

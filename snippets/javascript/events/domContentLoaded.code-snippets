@@ -3,10 +3,9 @@
         "prefix": ".domloaded",
         "body": [
             ".addEventListener('DOMContentLoaded', event => {",
-            "   event.preventDefault()",
-            "   console.log(\"DOM Content Loaded\")",
             "   ${1}",
             "})"
-        ]
+        ],
+        "description": "DOM content loaded event"
     }
 }

@@ -1,0 +1,11 @@
+{
+    "JS Key Down Event": {
+        "prefix": ".keydown",
+        "body": [
+            ".addEventListener('keydown', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The onkeydown event occurs when the user is pressing a key (on the keyboard)"
+    }
+}

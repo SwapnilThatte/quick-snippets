@@ -1,65 +1,147 @@
-# quickSnippets README
+# QuickSnippets
 
-This is the README for your extension "websnippets". After writing up a brief description, we recommend including the following sections.
+QuickSnippets is a VS Code snippet extension which helps developers in writing code with ease and provides snippets for boilerplate code.
 
 ## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+The extension currently supports JavaScript language and other libraries based on it like express and mongoose.
 
 ## Requirements
+VS Code
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## How to Use
 
-## Extension Settings
+### Axios
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+| Command | Description |
+| ---- | ---- |
+| axiosGET | GET request using Axios |
+| axiosPOST | POST request using Axios |
+| axiosPUT | PUT request using Axios |
+| axiosDELETE | DELETE request using Axios |
 
-For example:
 
-This extension contributes the following settings:
+### FetchAPI
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+| Command | Description |
+| ---- | ---- |
+| fetchGET | GET request using fetchAPI |
+| fetchPOST | POST request using fetchAPI |
 
-## Known Issues
+### XHR
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+| Command | Description |
+| ---- | ---- |
+| xhrGET | GET request using XHR object |
+| xhrPOST | POST request using XHR object |
+| xhrPUT | PUT request using XHR object |
+| xhrDELETE | DELETE request using XHR object |
 
-## Release Notes
+### Loops
 
-Users appreciate release notes as you update your extension.
+| Command | Description |
+| ---- | ---- |
+| for | Simple JS for loop |
+| .foreach | JS For-each loop |
+| forin | JS for-in loop |
+| forof | JS for-of loop |
 
-### 1.0.0
 
-Initial release of ...
+### Functions
 
-### 1.0.1
+| Command | Description |
+| ---- | ---- |
+| function | Simple JS function |
+| arrowfun | JS arrow function |
+| asyncarrowfun | Async JS arrow function |
 
-Fixed issue #.
 
-### 1.1.0
+### Timecontrol Functions
 
-Added features X, Y, and Z.
+| Command | Description |
+| ---- | ---- |
+| settimeInterval | JS Timeinterval Function |
+| settimeout | JS Timeout Function |
 
----
 
-## Working with Markdown
+### Console Functions
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+| Command | Description |
+| ---- | ---- |
+| log | Logs to console |
+| table | Displays JS Objects in table format |
+| warn | To log warning message to the console |
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
+### JS Events
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+| Command | Description |
+| ---- | ---- |
+| .click | Mouse click event |
+| .doubleclick | Mouse double click event |
+| .contextmenue | Mouse contextmenue event |
+| .domloaded | DOM content loaded event |
+| .dragStart | It is fired when an item is dragged |
+| .dragEnd | It is fired when a drag operation ends |
+| .dragLeave | The dragleave event occurs when a draggable element  leaves a valid drop target |
+| .dragOver | The event occurs when the dragged element is over the drop target |
+| .drop | The drop event occurs when a draggable element is dropped |
+| .focus | When the user focuses on an element |
+| .keydown | The onkeydown event occurs when the user is pressing a key (on the keyboard) |
+| .keypress | To detect only whether the user has pressed a key |
+| .keyup | The event occurs when the user releases a key |
+| .load | Load event of JS window object |
+| .ondrag | It is fired when an item is being dragged |
+| .dragEnter | JS drag enter event |
+| .mouseOut | Mouse out event |
+| .mouseOver | Mouse over event |
+| .resize | When the visitor resizes the window of the browser |
+| .submit | When the user submits the form |
+| .unload | Unload event of JS window object |
+| .wheel | The wheel event fires when the user rotates a wheel button on a pointing device (typically a mouse) |
 
-**Enjoy!**
+### Express JS
+
+| Command | Description |
+| ---- | ---- |
+| expapp | To create express server |
+| rtInit | Imports and exports router from express |
+| rtGET | Express router to handle GET request |
+| rtPOST | Express router to handle POST request |
+| rtPUT | Express router to handle PUT request |
+| rtDELETE | Express router to handle DELETE request |
+
+
+### CSS
+
+
+| Command | Description |
+| ---- | ---- |
+| cssInit | Starter template for CSS |
+
+
+## Contribution Guidelines
+
+The quicksnippets thanks to thousands of kind volunteers like you. We welcome all contributions to the community and are excited to welcome you aboard.
+
+### Steps to make your contribution
+
+1. Install git
+
+2. Create a fork of quick-snippets repository
+
+3. clone the fork
+
+4. Create a fresh new branch\
+    Working on a separate branch for each issue helps you keep your local work copy clean. You should never work on the main. This will soil your copy of freeCodeCamp and you may have to start over with a fresh clone or fork.
+
+5. Avoid using issue numbers in branches. Keep them short, meaningful and unique.
+
+6. Make sure you follow the following steps
+
+| 1 | Create a new file in snippets folder according to language or library (The name of the file should be related to the function of the snippet) save the file with <code>.code-snippets</code> extension |
+| ----- | ----- |
+| 2 | Write code for your snippet contribution. The snippet object must have following attributes <br> a. Prefix <br> b. Body <br> c. Description|
+| 3 | Add the snippet file in the package.json file with appropriate path |
+| 4 | Test the extension locally. <br> For <br><code>for Windows</code> <br>Go to C:/Users/.vscode/extension and paste the  quick snippets folder and restart the VS code |
+| 5 | Commit the changes <code>git commit -m "Commit message" </code> |
+| 6 | Push the changes to your fork and open a pull request |

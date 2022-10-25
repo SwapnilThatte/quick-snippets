@@ -1,0 +1,11 @@
+{
+    "JS Drag Enter Event": {
+        "prefix": ".dragEnter",
+        "body": [
+            ".addEventListener('dragenter', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "The dragenter event occurs when a draggable element or text selection enters a valid drop target."
+    }
+}

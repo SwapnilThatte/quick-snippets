@@ -1,11 +1,12 @@
 {
     "Boilerplate code for express router" : {
-        "prefix": "routerInit",
+        "prefix": "rtInit",
         "body": [
             "const router = require('express').Router()",
             "",
             "",
             "module.exports = router"
-        ]
+        ],
+        "description": "Imports and exports router from express"
     }
 }

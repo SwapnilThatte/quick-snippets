@@ -2,7 +2,9 @@
     "GET request using Fetch API" : {
         "prefix": "fetchGET", 
         "body": [
-          "await fetch(\"URL\")",
+           "// @param url  URL to send the request",
+    
+          "await fetch(${1})",
           "       .then(response => {",
           "",
           "       })",
@@ -10,5 +12,6 @@
           "",
           "       })"
         ],
+        "description": "GET request using fetchAPI"
     }
 }

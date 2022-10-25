@@ -3,10 +3,9 @@
         "prefix": ".mouseOver",
         "body": [
             "${1}.addEventListener('onmouseover', event => {",
-            "",
-            "   console.log(\"Mouse Over Event\")",
             "   ${1}",
             "})",
-        ]
+        ],
+        "description": "Mouse over event"
     }
 }

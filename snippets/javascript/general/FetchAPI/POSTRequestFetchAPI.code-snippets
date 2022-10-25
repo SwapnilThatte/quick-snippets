@@ -2,15 +2,11 @@
     "POST request using Fetch API" : {
         "prefix": "fetchPOST", 
         "body": [
-        "const options = {",
-        "   method : 'POST', ",
-        "   headers : { ",
-        "     'Content-Type': 'application/json',",
-        "   }",
-        "   body : ${1}",
-        "}",
+         "// @param url     URL to send the request",
+         "// @param options  data to send",
+
         "",
-        "await fetch(URL, options)",
+        "await fetch(${1})",
         "       .then(response => {",
         "            ",
         "       })",
@@ -19,5 +15,6 @@
         "       })"
         
         ],
+        "description": "POST request using fetchAPI"
     }
 }

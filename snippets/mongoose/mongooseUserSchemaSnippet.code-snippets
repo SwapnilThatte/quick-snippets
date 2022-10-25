@@ -1,35 +1,16 @@
 {
-    "mongodb user schema starter template": {
-        "prefix": "mongoUserSchema",
+    "mongodb schema starter template": {
+        "prefix": "mongoSchema",
         "body": [
-            "// To install mongoose library use ' npm install mongoose ' command",
            "const mongoose = require('mongoose')",
            "",
            "const UserSchema = new mongoose.Schema({",
-           "    name : { ",
-           "        type : String,",
-           "        require : true,",
-           "        min : 2,",
-           "        max : 10,",
-           "    },",
-           "    email : { ",
-           "        type : String,",
-           "        require : true,",
-           "        min : 2,",
-           "        max : 10,",
-           "        unique: true,",
-           "    },",
-           "    password : { ",
-           "        type : String,",
-           "        require : true,",
-           "        min : 8,",
-           "        max : 20,",
-           "    },",
+           " ",
            "}",
            "    { timestamps: true }, ",
            ")",
-           "module.exports = mongoose.model(\"User\", UserSchema);"
+           "module.exports = mongoose.model(\"${TM_FILENAME_BASE}\", ${TM_FILENAME_BASE}Schema);"
         ],
-        "description": "Creates basic express app"
+        "description": "Mongoose Schema"
     }
 }

@@ -1,0 +1,11 @@
+{
+    "JS Submit Event": {
+        "prefix": ".submit",
+        "body": [
+            ".addEventListener('submit', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the user submits the form"
+    }
+}

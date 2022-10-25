@@ -5,11 +5,11 @@
             "let xhr = new XMLHttpRequest()",
             "xhr.onreadystatechange = () => {",
             "   if (xhr.readyState == XMLHttpRequest.DONE) {",
-            "       let response = xhr.responseText",
             "   }",
             "}",
-            "xhr.open('GET', ${1}/* URL */, true)",
+            "xhr.open('GET', ${1}, true)",
             "xhr.send(null)"
         ],
+        "description": "GET request using XHR object"
     }
 }

@@ -3,13 +3,12 @@
         "prefix": "xhrDELETE", 
         "body": [
             "let xhr = new XMLHttpRequest()",
-            "const URL = /* URL */ ",
             "xhr.onreadystatechange = () => {",
             "   if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {",
-            "       let response = xhr.responseText ",
+            "",
             "   }",
             "}",
-            "xhr.open('DELETE', URL, true)",
+            "xhr.open('DELETE',${1}, true)",
             "xhr.send(null)"
         ]
     }

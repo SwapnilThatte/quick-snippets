@@ -1,0 +1,11 @@
+{
+    "JS Blur Event": {
+        "prefix": ".blur",
+        "body": [
+            ".addEventListener('blur', event => {",
+            "   ${1}",
+            "})",
+        ],
+        "description": "When the focus is away from a form element"
+    }
+}

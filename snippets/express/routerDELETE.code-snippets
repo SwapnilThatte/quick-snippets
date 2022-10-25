@@ -1,9 +1,9 @@
 {
     "Express router to handle DELETE request" : {
-        "prefix": "routerDELETE",
+        "prefix": "rtDELETE",
         "body": [
             "",
-            "router.delete('/', (req, res, next) => {",
+            "router.delete('/', async (req, res, next) => {",
             "   ${1}res.status(200).send(\"<h1>router DELETE request</h1>\")",
             "})",
             "",

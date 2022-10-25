@@ -50,6 +50,74 @@
         "language": "javascript",
         "path": "./snippets/javascript/events/dragend.code-snippets"
       },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/onDrag.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/onDragEnter.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/dragLeave.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/dragover.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/drop.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/wheelEvent.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/keydown.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/keypress.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/keyup.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/load.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/unload.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/resize.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/submit.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/change.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/focus.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript/events/blur.code-snippets"
+      },
+      
+
+
+
      
      
      
