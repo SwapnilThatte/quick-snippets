@@ -142,6 +142,6 @@ The quicksnippets thanks to thousands of kind volunteers like you. We welcome al
 | ----- | ----- |
 | 2 | Write code for your snippet contribution. The snippet object must have following attributes <br> a. Prefix <br> b. Body <br> c. Description|
 | 3 | Add the snippet file in the package.json file with appropriate path |
-| 4 | Test the extension locally. <br> For <br><code>for Windows</code> <br>Go to C:/Users/.vscode/extension and paste the  quick snippets folder and restart the VS code |
+| 4 | Test the extension locally. <br> For <br><code>for Windows</code> <br>Go to <code> <user home>/.vscode/extensions </code> and paste the  quick snippets folder and restart the VS code |
 | 5 | Commit the changes <code>git commit -m "Commit message" </code> |
 | 6 | Push the changes to your fork and open a pull request |
