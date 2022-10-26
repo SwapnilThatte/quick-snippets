@@ -1,14 +1,13 @@
 {
-  "name": "quick_snippets",
+  "name": "quicksnippets",
   "displayName": "Quick Snippets",
   "description": "",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SwapnilThatte"
+    "url": "https://github.com/SwapnilThatte/quick-snippets"
   },
-  "publisher": "Swapnil Thatte",
-  "icon": "./logo.png",
+  "publisher": "SwapnilThatte",
   "engines": {
     "vscode": "^1.70.0"
   },
