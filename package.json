@@ -2,7 +2,7 @@
   "name": "quicksnippets",
   "displayName": "Quick Snippets",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/SwapnilThatte/quick-snippets"
@@ -16,7 +16,6 @@
   ],
   "contributes": {
     "snippets": [
-
       {
         "language": "javascript",
         "path": "./snippets/javascript/events/click.code-snippets"
@@ -113,13 +112,6 @@
         "language": "javascript",
         "path": "./snippets/javascript/events/blur.code-snippets"
       },
-      
-
-
-
-     
-     
-     
       {
         "language": "javascript",
         "path": "./snippets/javascript/general/consoleFunctions/consoleLog.code-snippets"
@@ -132,9 +124,6 @@
         "language": "javascript",
         "path": "./snippets/javascript/general/consoleFunctions/consoleWarn.code-snippets"
       },
-      
-
-
       {
         "language": "javascript",
         "path": "./snippets/javascript/general/Functions/timingFunctions/settimeout.code-snippets"
@@ -143,10 +132,6 @@
         "language": "javascript",
         "path": "./snippets/javascript/general/Functions/timingFunctions/settimeinterval.code-snippets"
       },
-
-
-
-
       {
         "language": "javascript",
         "path": "./snippets/javascript/general/Functions/function.code-snippets"
@@ -159,10 +144,6 @@
         "language": "javascript",
         "path": "./snippets/javascript/general/Functions/asyncArrowFunction.code-snippets"
       },
-
-
-
-
       {
         "language": "javascript",
         "path": "./snippets/javascript/general/Loops/forLoop.code-snippets"
@@ -179,18 +160,13 @@
         "language": "javascript",
         "path": "./snippets/javascript/general/Loops/forEachLoop.code-snippets"
       },
-
-
-
-
-
       {
         "language": "javascript",
-        "path" : "./snippets/javascript/general/XHR/GETRequestXHR.code-snippets"
+        "path": "./snippets/javascript/general/XHR/GETRequestXHR.code-snippets"
       },
       {
         "language": "javascript",
-        "path" : "./snippets/javascript/general/XHR/POSTRequestXHR.code-snippets"
+        "path": "./snippets/javascript/general/XHR/POSTRequestXHR.code-snippets"
       },
       {
         "language": "javascript",
@@ -208,7 +184,6 @@
         "language": "javascript",
         "path": "./snippets/javascript/general/FetchAPI/POSTRequestFetchAPI.code-snippets"
       },
-
       {
         "language": "javascript",
         "path": "./snippets/javascript/general/Axios/GETRequestAxios.code-snippets"
@@ -225,11 +200,6 @@
         "language": "javascript",
         "path": "./snippets/javascript/general/Axios/DELETERequestAxios.code-snippets"
       },
-
-
-
-
-
       {
         "language": "javascript",
         "path": "./snippets/express/expressServer.code-snippets"
@@ -254,25 +224,14 @@
         "language": "javascript",
         "path": "./snippets/express/routerInit.code-snippets"
       },
-      
-      
-      
-      
-      
       {
         "language": "javascript",
         "path": "./snippets/mongoose/mongooseUserSchemaSnippet.code-snippets"
       },
-
-
-
       {
         "language": "c++",
         "path": "./snippets/cpp/cppStarter.code-snippets"
       },
-
-
-
       {
         "language": "css",
         "path": "./snippets/css/starterCSS.code-snippets"
