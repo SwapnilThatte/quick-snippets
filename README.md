@@ -3,7 +3,10 @@
 QuickSnippets is a VS Code snippet extension which helps developers in writing code with ease and provides snippets for boilerplate code.
 
 ## Features
-The extension currently supports JavaScript language and other libraries based on it like express and mongoose.
+The extension currently supports 
+1. Javascript
+2. Axios
+3. Express JS
 
 ## Requirements
 VS Code
