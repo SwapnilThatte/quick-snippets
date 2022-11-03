@@ -3,7 +3,10 @@
 QuickSnippets is a VS Code snippet extension which helps developers in writing code with ease and provides snippets for boilerplate code.
 
 ## Features
-The extension currently supports JavaScript language and other libraries based on it like express and mongoose.
+The extension currently supports 
+1. Javascript
+2. Axios
+3. Express JS
 
 ## Requirements
 VS Code
@@ -123,9 +126,11 @@ VS Code
 
 The quicksnippets thanks to thousands of kind volunteers like you. We welcome all contributions to the community and are excited to welcome you aboard.
 
+To understand folder structure [click here](vsc-extension-quickstart.md)
+
 ### Steps to make your contribution
 
-1. Install git
+1. Install [git](https://git-scm.com/)
 
 2. Create a fork of quick-snippets repository
 
@@ -140,8 +145,8 @@ The quicksnippets thanks to thousands of kind volunteers like you. We welcome al
 
 | 1 | Create a new file in snippets folder according to language or library (The name of the file should be related to the function of the snippet) save the file with <code>.code-snippets</code> extension |
 | ----- | ----- |
-| 2 | Write code for your snippet contribution. The snippet object must have following attributes <br> a. Prefix <br> b. Body <br> c. Description|
+| 2 | Write code for your snippet contribution. The snippet object must have following attributes <br> a. Prefix (short word to generate the code snippet) <br> b. Body (Body of the code snippet) <br> c. Description (Info. about the code snippet)|
 | 3 | Add the snippet file in the package.json file with appropriate path |
-| 4 | Test the extension locally. <br> For <br><code>for Windows</code> <br>Go to C:/Users/.vscode/extension and paste the  quick snippets folder and restart the VS code |
+| 4 | Test the extension locally. <br> For <br><code>for Windows</code> <br>Go to <code> < user home >/.vscode/extensions </code> and paste the  quick snippets folder and restart the VS code |
 | 5 | Commit the changes <code>git commit -m "Commit message" </code> |
 | 6 | Push the changes to your fork and open a pull request |
