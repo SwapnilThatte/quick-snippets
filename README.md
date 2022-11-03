@@ -126,6 +126,8 @@ VS Code
 
 The quicksnippets thanks to thousands of kind volunteers like you. We welcome all contributions to the community and are excited to welcome you aboard.
 
+To understand folder structure [click here](vsc-extension-quickstart.md)
+
 ### Steps to make your contribution
 
 1. Install git
