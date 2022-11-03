@@ -130,7 +130,7 @@ To understand folder structure [click here](vsc-extension-quickstart.md)
 
 ### Steps to make your contribution
 
-1. Install git
+1. Install [git](https://git-scm.com/)
 
 2. Create a fork of quick-snippets repository
 
