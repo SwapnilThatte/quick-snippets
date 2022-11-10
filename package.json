@@ -14,6 +14,9 @@
   "categories": [
     "Snippets"
   ],
+  "scripts": {
+  "deploy": "vsce publish --yarn"
+},
   "contributes": {
     "snippets": [
       {
