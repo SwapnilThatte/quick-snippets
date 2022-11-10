@@ -17,6 +17,9 @@
   "scripts": {
   "deploy": "vsce publish --yarn"
 },
+  devDependencies: {
+    "vsce" : ^2.14.0
+  },
   "contributes": {
     "snippets": [
       {
