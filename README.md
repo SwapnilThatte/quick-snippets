@@ -137,7 +137,7 @@ To understand folder structure [click here](vsc-extension-quickstart.md)
 3. clone the fork
 
 4. Create a fresh new branch\
-    Working on a separate branch for each issue helps you keep your local work copy clean. You should never work on the main. This will soil your copy of freeCodeCamp and you may have to start over with a fresh clone or fork.
+    Working on a separate branch for each issue helps you keep your local work copy clean. You should never work on the main. This will soil your copy of QuickSnippets and you may have to start over with a fresh clone or fork.
 
 5. Avoid using issue numbers in branches. Keep them short, meaningful and unique.
 
