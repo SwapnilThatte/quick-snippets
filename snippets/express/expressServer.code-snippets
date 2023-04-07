@@ -1,31 +1,32 @@
 {
-    "express starter template" : {
-        "prefix": "expapp",
-        "body" : [
-            "// To install dependencies use ' npm install express helmet dotenv mongoose ' ",
-            "const express = require('express')",
-            "const helmet = require('helmet')",
-            "const dotenv = require('dotenv')",
-            "const mongoose = require('mongoose')",
-            "",
-            "const app = express()",
-            "dotenv.config()",
-            "const PORT = process.env.PORT | 5000",
-            "",
-            "// Database Connection",
-            "mongoose.connect(process.env.DB_CONNECT, () => {",
-            "   console.log(`Connected to MongoDB Database`)",
-            "})",
-            "",
-            "app.get('/', async (req, res, next) => {",
-            "   ${1}res.status(200).send(\"<h1>Hello World</h1><br><h4>Express Server is running!</h4>\")",
-            "})",
-            "",
-            "app.use(helmet())",
-            "app.listen(PORT, () => {",
-            "   console.log(`Server Started on Port ${PORT}`)",
-            "})"
-        ],
-        "description": "To create express server"
-    }
+  "express starter template": {
+    "prefix": "expapp",
+    "body": [
+      "// To install dependencies use ' npm install express helmet dotenv mongoose cors ' ",
+      "// To install devDependencies use ' npm install -D nodemon ' ",
+      "const express = require('express')",
+      "const helmet = require('helmet')",
+      "const dotenv = require('dotenv')",
+      "const mongoose = require('mongoose')",
+      "",
+      "const app = express()",
+      "dotenv.config()",
+      "const PORT = process.env.PORT | 5000",
+      "",
+      "// Database Connection",
+      "mongoose.connect(process.env.DB_CONNECT, () => {",
+      "   console.log(`Connected to MongoDB Database`)",
+      "})",
+      "",
+      "app.get('/', async (req, res, next) => {",
+      "   ${1}res.status(200).json({msg:\"Server has started!\"})",
+      "})",
+      "",
+      "app.use(helmet())",
+      "app.listen(PORT, () => {",
+      "   console.log(`Server Started on Port `, PORT)",
+      "})"
+    ],
+    "description": "To create express server"
+  }
 }
